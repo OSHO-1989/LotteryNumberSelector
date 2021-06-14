@@ -4,7 +4,10 @@ QPushButton#pushButton_r11, QPushButton#pushButton_r12, QPushButton#pushButton_r
 QPushButton#pushButton_r16, QPushButton#pushButton_r17, QPushButton#pushButton_r18, QPushButton#pushButton_r19, QPushButton#pushButton_r20,
 QPushButton#pushButton_r21, QPushButton#pushButton_r22, QPushButton#pushButton_r23, QPushButton#pushButton_r24, QPushButton#pushButton_r24, 
 QPushButton#pushButton_r25, QPushButton#pushButton_r26, QPushButton#pushButton_r27, QPushButton#pushButton_r28, QPushButton#pushButton_r29, 
-QPushButton#pushButton_r30, QPushButton#pushButton_r31, QPushButton#pushButton_r32, QPushButton#pushButton_r33 
+QPushButton#pushButton_r30, QPushButton#pushButton_r31, QPushButton#pushButton_r32, QPushButton#pushButton_r33, QPushButton#pushButton_b1, 
+QPushButton#pushButton_b2, QPushButton#pushButton_b3, QPushButton#pushButton_b4, QPushButton#pushButton_b5, QPushButton#pushButton_b6, 
+QPushButton#pushButton_b7, QPushButton#pushButton_b8, QPushButton#pushButton_b9, QPushButton#pushButton_b10, QPushButton#pushButton_b11, 
+QPushButton#pushButton_b12, QPushButton#pushButton_b13, QPushButton#pushButton_b14, QPushButton#pushButton_b15, QPushButton#pushButton_b16
 {
 	font-family: "Microsoft YaHei";
     font-size: 18px;
@@ -22,7 +25,10 @@ QPushButton#pushButton_r11:checked, QPushButton#pushButton_r12:checked, QPushBut
 QPushButton#pushButton_r16:checked, QPushButton#pushButton_r17:checked, QPushButton#pushButton_r18:checked, QPushButton#pushButton_r19:checked, QPushButton#pushButton_r20:checked,
 QPushButton#pushButton_r21:checked, QPushButton#pushButton_r22:checked, QPushButton#pushButton_r23:checked, QPushButton#pushButton_r24:checked, QPushButton#pushButton_r24:checked, 
 QPushButton#pushButton_r25:checked, QPushButton#pushButton_r26:checked, QPushButton#pushButton_r27:checked, QPushButton#pushButton_r28:checked, QPushButton#pushButton_r29:checked, 
-QPushButton#pushButton_r30:checked, QPushButton#pushButton_r31:checked, QPushButton#pushButton_r32:checked, QPushButton#pushButton_r33:checked 
+QPushButton#pushButton_r30:checked, QPushButton#pushButton_r31:checked, QPushButton#pushButton_r32:checked, QPushButton#pushButton_r33:checked, 
+QPushButton#pushButton_b1:checked, QPushButton#pushButton_b2:checked, QPushButton#pushButton_b3:checked, QPushButton#pushButton_b4:checked, QPushButton#pushButton_b5:checked, 
+QPushButton#pushButton_b6:checked, QPushButton#pushButton_b7:checked, QPushButton#pushButton_b8:checked, QPushButton#pushButton_b9:checked, QPushButton#pushButton_b10:checked, 
+QPushButton#pushButton_b11:checked, QPushButton#pushButton_b12:checked, QPushButton#pushButton_b13:checked, QPushButton#pushButton_b14:checked, QPushButton#pushButton_b15:checked, QPushButton#pushButton_b16:checked
 {
 	font-family: "Microsoft YaHei";
     font-size: 18px;
@@ -40,7 +46,10 @@ QPushButton#pushButton_r11:hover, QPushButton#pushButton_r12:hover, QPushButton#
 QPushButton#pushButton_r16:hover, QPushButton#pushButton_r17:hover, QPushButton#pushButton_r18:hover, QPushButton#pushButton_r19:hover, QPushButton#pushButton_r20:hover,
 QPushButton#pushButton_r21:hover, QPushButton#pushButton_r22:hover, QPushButton#pushButton_r23:hover, QPushButton#pushButton_r24:hover, QPushButton#pushButton_r24:hover, 
 QPushButton#pushButton_r25:hover, QPushButton#pushButton_r26:hover, QPushButton#pushButton_r27:hover, QPushButton#pushButton_r28:hover, QPushButton#pushButton_r29:hover, 
-QPushButton#pushButton_r30:hover, QPushButton#pushButton_r31:hover, QPushButton#pushButton_r32:hover, QPushButton#pushButton_r33:hover 
+QPushButton#pushButton_r30:hover, QPushButton#pushButton_r31:hover, QPushButton#pushButton_r32:hover, QPushButton#pushButton_r33:hover, 
+QPushButton#pushButton_b1:hover, QPushButton#pushButton_b2:hover, QPushButton#pushButton_b3:hover, QPushButton#pushButton_b4:hover, QPushButton#pushButton_b5:hover, 
+QPushButton#pushButton_b6:hover, QPushButton#pushButton_b7:hover, QPushButton#pushButton_b8:hover, QPushButton#pushButton_b9:hover, QPushButton#pushButton_b10:hover, 
+QPushButton#pushButton_b11:hover, QPushButton#pushButton_b12:hover, QPushButton#pushButton_b13:hover, QPushButton#pushButton_b14:hover, QPushButton#pushButton_b15:hover, QPushButton#pushButton_b16:hover 
 {
     font-family: "Microsoft YaHei";
     font-size: 18px;
@@ -58,7 +67,10 @@ QPushButton#pushButton_r11:unchecked, QPushButton#pushButton_r12:unchecked, QPus
 QPushButton#pushButton_r16:unchecked, QPushButton#pushButton_r17:unchecked, QPushButton#pushButton_r18:unchecked, QPushButton#pushButton_r19:unchecked, QPushButton#pushButton_r20:unchecked,
 QPushButton#pushButton_r21:unchecked, QPushButton#pushButton_r22:unchecked, QPushButton#pushButton_r23:unchecked, QPushButton#pushButton_r24:unchecked, QPushButton#pushButton_r24:unchecked, 
 QPushButton#pushButton_r25:unchecked, QPushButton#pushButton_r26:unchecked, QPushButton#pushButton_r27:unchecked, QPushButton#pushButton_r28:unchecked, QPushButton#pushButton_r29:unchecked, 
-QPushButton#pushButton_r30:unchecked, QPushButton#pushButton_r31:unchecked, QPushButton#pushButton_r32:unchecked, QPushButton#pushButton_r33:unchecked 
+QPushButton#pushButton_r30:unchecked, QPushButton#pushButton_r31:unchecked, QPushButton#pushButton_r32:unchecked, QPushButton#pushButton_r33:unchecked, 
+QPushButton#pushButton_b1:unchecked, QPushButton#pushButton_b2:unchecked, QPushButton#pushButton_b3:unchecked, QPushButton#pushButton_b4:unchecked, QPushButton#pushButton_b5:unchecked, 
+QPushButton#pushButton_b6:unchecked, QPushButton#pushButton_b7:unchecked, QPushButton#pushButton_b8:unchecked, QPushButton#pushButton_b9:unchecked, QPushButton#pushButton_b10:unchecked, 
+QPushButton#pushButton_b11:unchecked, QPushButton#pushButton_b12:unchecked, QPushButton#pushButton_b13:unchecked, QPushButton#pushButton_b14:unchecked, QPushButton#pushButton_b15:unchecked, QPushButton#pushButton_b16:unchecked
 {
     font-family: "Microsoft YaHei";
     font-size: 18px;

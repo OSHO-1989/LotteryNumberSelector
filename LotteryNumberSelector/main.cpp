@@ -19,14 +19,14 @@ int main(int argc, char *argv[])
 		rnds.insert(dist(eng));
 	}
 
+	HistoryDataSyncManager::getInstance()->initialize();
+	HistoryDataSyncManager::getInstance()->startSyncHistoryDataFromNetwork();
+
     FormDesktop w;
     w.show();
 
 	UIResourceHelper uiHelper;
 	uiHelper.setStyleSheet(":/ApplicationStyle/Resources/Styles/ApplicationStyles.qss");
-
-	HistoryDataSyncManager::getInstance()->initialize();
-	HistoryDataSyncManager::getInstance()->startSyncHistoryDataFromNetwork();
 
     return a.exec();
 }
