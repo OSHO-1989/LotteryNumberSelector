@@ -2,7 +2,9 @@
 #include <QtWidgets/QApplication>
 #include <random>
 #include <unordered_set>
-#include "DataRequestClient.h"
+#include "UIResourceHelper.h"
+#include "HistoryDataSyncManager.h"
+
 
 int main(int argc, char *argv[])
 {
@@ -20,8 +22,11 @@ int main(int argc, char *argv[])
     FormDesktop w;
     w.show();
 
-	DataRequestClient::getInstance()->initialize();
-	DataRequestClient::getInstance()->getHistoryData("http://www.cwl.gov.cn/cwl_admin/kjxx/findDrawNotice?name=ssq&issueCount=&issueStart=&issueEnd=&dayStart=2003-02-06&dayEnd=2021-05-14&pageNo=2");
+	UIResourceHelper uiHelper;
+	uiHelper.setStyleSheet(":/ApplicationStyle/Resources/Styles/ApplicationStyles.qss");
+
+	HistoryDataSyncManager::getInstance()->initialize();
+	HistoryDataSyncManager::getInstance()->startSyncHistoryDataFromNetwork();
 
     return a.exec();
 }

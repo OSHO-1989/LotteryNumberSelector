@@ -68,7 +68,7 @@ void DataRequestClient::replyFinished(QNetworkReply* reply)
 		requestResultText = "API Call Failed";
 	}
 
-	qDebug() << requestResultText;
+	emit sendHistoryData(requestResultText);
 }
 
 void DataRequestClient::handleSSLErrors(QNetworkReply* reply, const QList<QSslError>& errors)

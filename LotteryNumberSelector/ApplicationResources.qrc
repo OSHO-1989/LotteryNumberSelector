@@ -1,4 +1,6 @@
 <RCC>
-    <qresource prefix="FormDesktop">
-    </qresource>
+  <qresource prefix="FormDesktop"/>
+  <qresource prefix="ApplicationStyle">
+    <file>Resources/Styles/ApplicationStyles.qss</file>
+  </qresource>
 </RCC>

@@ -29,6 +29,9 @@ public:
 protected:
 	explicit DataRequestClient(QObject* parent = nullptr);
 
+signals:
+	void sendHistoryData(const QString& historyData);
+
 private:
 	QNetworkAccessManager* m_pNetworkAccessManager;
 };
